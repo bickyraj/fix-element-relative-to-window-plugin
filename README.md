@@ -9,7 +9,7 @@ This is a plugin that helps to fix the position of an element tag relative to wi
 
 include the script file in your page.
 
-<script type="text/javascript" src="fix-element-relative-to-window.min.js"></script>
+###<script type="text/javascript" src="fix-element-relative-to-window.min.js"></script>
 
 ## Basic usage
 
