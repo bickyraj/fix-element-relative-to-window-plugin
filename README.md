@@ -23,8 +23,12 @@ $("header_div").fixElementRelativeToWindow({
 ## To fix element to bottom
 
 $("bottom_div").fixElementRelativeToWindow({
+
     vertical:true,		   //fix element to vertical scroll
+
     fromOffsetTop: false,  //fix element to top
+
     stickToBottom:true,    //fix element to bottom
+    
 	elemOffsetBottom: 0,   //value for offset bottom
 });
