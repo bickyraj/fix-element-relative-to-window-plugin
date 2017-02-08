@@ -18,3 +18,13 @@ A basic example, if you want to fix, let's say a header div relative to window o
 $("header_div").fixElementRelativeToWindow({
     vertical:true,
 });
+
+
+## To fix element to bottom
+
+$("bottom_div").fixElementRelativeToWindow({
+    vertical:true,		   //fix element to vertical scroll
+    fromOffsetTop: false,  //fix element to top
+    stickToBottom:true,    //fix element to bottom
+	elemOffsetBottom: 0,   //value for offset bottom
+});
